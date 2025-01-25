@@ -37,17 +37,22 @@ android {
 }
 
 dependencies {
-    // Firebase dependencies
-    implementation(platform("com.google.firebase:firebase-bom:32.7.0")) // Firebase BoM
-    implementation("com.google.firebase:firebase-auth") // Authentication
-    implementation("com.google.firebase:firebase-database") // Realtime Database
-    implementation("com.google.firebase:firebase-messaging") // Cloud Messaging
-    implementation("com.google.android.gms:play-services-location:21.0.1") // For location
+    // Firebase BoM and modules
+    implementation(platform("com.google.firebase:firebase-bom:32.2.0"))
+    implementation("com.google.firebase:firebase-auth-ktx")
+    implementation("com.google.firebase:firebase-database-ktx")
+    implementation("com.google.firebase:firebase-storage-ktx")
+    implementation("com.google.firebase:firebase-messaging-ktx")
 
-    // Other dependencies
+    // Location Services
+    implementation("com.google.android.gms:play-services-location:21.0.1")
+
+    // Core AndroidX libraries
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
+
+    // Testing libraries
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

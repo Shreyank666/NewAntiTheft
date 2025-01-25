@@ -1,7 +1,12 @@
 <resources>
-    <string name="app_name">NewAntiTheft</string>
-    <string name="login">Login</string>
-    <string name="register">Register</string>
-    <string name="email_hint">Email</string>
-    <string name="password_hint">Password</string>
+    <!-- Existing strings -->
+    <string name="app_name">New Anti-Theft</string>
+    <string name="capture_photo">Capture Photo</string>
+    <string name="lock_device">Lock Device</string>
+    <string name="current_location">Current Location</string>
+    <string name="unknown">Unknown</string>
+
+    <!-- New strings for item_location_history.xml -->
+    <string name="coordinates_text">Coordinates: Unknown</string>
+    <string name="timestamp_text">Timestamp: N/A</string>
 </resources>
