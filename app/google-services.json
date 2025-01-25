@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "87981313444",
+    "project_id": "antitheftapp-fab83",
+    "storage_bucket": "antitheftapp-fab83.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87981313444:android:f86453b2e52f62e8c98531",
+        "android_client_info": {
+          "package_name": "com.example.newantitheft"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ7RZ-BFahwVGycWmi3-kneEdtuIlnFIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
